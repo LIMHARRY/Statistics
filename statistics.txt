@@ -1,0 +1,25 @@
+
+
+Null Hypothesis(귀무가설):
+	A null hypothesis is a hypothesis that says there is no statistical significance between the two variables in the hypothesis. It is the hypothesis that the researcher is trying to disprove. In the example, Susie's null hypothesis would be something like this: There is no statistically significant relationship between the type of water I feed the flowers and growth of the flowers. A researcher is challenged by the null hypothesis and usually wants to disprove it, to demonstrate that there is a statistically-significant relationship between the two variables in the hypothesis.
+
+Alternative Hypothesis(대립가설):
+	An alternative hypothesis simply is the inverse, or opposite, of the null hypothesis. So, if we continue with the above example, the alternative hypothesis would be that there IS indeed a statistically-significant relationship between what type of water the flower plant is fed and growth.
+
+test statistic(검정 통계량):
+	
+Random Variable(확률 변수):
+	Random variable is a measurable function X:Omega -> E from a set of possible outcomes Omega to a measurable space E
+  
+P_value(p값):
+	p-value is the largest probability of obtaining test results at least as extreme as the results actually observed, under the assumption that the null hypothesisis correct.
+	즉 귀무가설이 참이라는 전제하에, 해당 test results가 발생할 확률
+	ex) 생수1개, 아메리카노 3개가 있다고가정하고, 실험 참가자가 맛을보고 생수1개를 판별해낼 확률이 단순추측해서 맞출 확률보다 높을까?
+	H0귀무가설: 생수를 판별해낼 확률 -> 1/4
+	Ha대립가설: 생수를 판별해낼 확률 -> 1/4 보다 크다
+	실제 1000명의 참가자로부터 실험 진행 결과 60%의 참가자가 생수를 구분해냈다면?
+	-> P값: 생수를 판별해낼 확률이 1/4일때 1000명중 600명이 생수를 구분해낼 확률 
+
+statistically significant at level alpha: 
+	a result has statistical significance when it is very unlikely to have occurred given the null hypothesis
+	p값이 알파 이하로 작을경우, 알파 수준에서 통계적으로 유의하다고 한다.(알파: 유의수준)
